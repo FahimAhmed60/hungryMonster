@@ -1,0 +1,43 @@
+#meal-details{
+   border-radius: 50px;
+   padding: 5px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 20px;
+}
+#meal-details img{
+    width: 220px;
+    padding: 10px;
+}
+#meal-details  a:hover{
+text-decoration: none;
+}
+
+.mealItem{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+/* Button style   */
+ #details{
+    border-radius: 5px; 
+    width: 100px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+ }
+
+ #meal-ingredient-list{
+     width: 200px;
+     background-color:white;
+     margin: auto;
+     border-radius: 10px;
+     padding: 10px;
+ }
+
+ #meal-ingredient-list img{
+    width: 150px;
+    
+
+ }
